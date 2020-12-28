@@ -1,0 +1,54 @@
+.typography
+  &_headings
+    height: 100px
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+  &_texts-used
+    display: flex
+    justify-content: space-between
+
+  &_specific
+    &_one
+      padding: 1rem
+      // &:nth-child(odd)
+      background-color: $text_gray
+      color: white
+      // &:nth-child(even)
+      //   background-color: $border_gray
+    &_title
+      width: 25%
+    &_info
+      width: 75%
+      padding-left: 1rem
+
+      p
+        margin-bottom: 5px
+
+  &_links
+    padding: 1rem
+    background-color: $border_gray
+
+    &_one
+      display: flex
+
+      .title
+        width: 30%
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+      .styles
+        width: 70%
+        display: flex
+
+        .normal, .hovered
+          width: 47.5%
+
+
+  th, td
+    padding: 2rem
+
+  th
+    border-right: 1px solid #373b3e

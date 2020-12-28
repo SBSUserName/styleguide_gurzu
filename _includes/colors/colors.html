@@ -1,0 +1,64 @@
+<div class="colors section-card">
+  <h5 class="section-card_title">Colors</h5>
+
+  <div class="section-card_information-container">
+    <div class="row">
+      {% for color in site.categories.colors %}
+      <div class="col-4 mb-5">
+        <div class="colors_one">
+          <div class="{{color.circleColor}} colors_circle"></div>
+
+          <div class="colors_definition">
+            <h6>{{color.varName}}</h6>
+            <h5>{{color.colorCode}}</h5>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+      <!-- <div class="col-4">
+        <div class="colors_one">
+          <div class="colors_circle text-gray"></div>
+
+          <div class="colors_definition">
+            <h6>$text_gray</h6>
+            <h5>#595F68</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="colors_one">
+          <div class="colors_circle border-gray"></div>
+
+          <div class="colors_definition">
+            <h6>$border_gray</h6>
+            <h5>#595F68</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="colors_one">
+          <div class="colors_circle gurzu-blue-dark"></div>
+
+          <div class="colors_definition">
+            <h6>$gurzu_blue_dark</h6>
+            <h5>#0088c0</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="colors_one">
+          <div class="colors_circle dark-gray"></div>
+
+          <div class="colors_definition">
+            <h6>$dark_gray</h6>
+            <h5>#4d4d4d</h5>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</div>

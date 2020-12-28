@@ -1,0 +1,83 @@
+.buttons
+  &_primary
+    color: #fff 
+    background: $gurzu_blue
+    border-radius: 50px 
+    padding: 12px 32px 
+    border: none 
+    font-weight: 600 
+    margin-bottom: 5px
+
+    &_hovered
+      background: $gurzu_blue_dark
+      border-radius: 50px 
+      padding: 12px 32px 
+      border: none 
+      font-weight: 600
+      color: #fff
+      margin-bottom: 5px
+
+  &_secondary
+    background: white
+    border-radius: 50px 
+    padding: 12px 32px 
+    font-weight: 600 
+    margin-bottom: 5px
+    color: $gurzu_blue
+    border: 2px solid $gurzu_blue
+
+    &_hovered
+      background: $gurzu_blue
+      border-radius: 50px 
+      padding: 12px 32px 
+      font-weight: 600 
+      margin-bottom: 5px
+      color: white
+      border: 2px solid $gurzu_blue
+
+  &_tertiary
+    border: 2px solid $border_gray
+    border-radius: 50px
+    padding: .6rem 2rem
+    font-weight: bold
+    color: #333
+    background: #fff
+
+    &_hovered
+      background: $gurzu_blue
+      color: #fff
+      border: 2px solid $gurzu_blue
+      border-radius: 50px
+      padding: .6rem 2rem
+      font-weight: bold
+
+  &_one
+    display: flex
+
+    &_column
+      width: 25%
+      padding: 2rem 0
+      &:first-child
+        padding: 2rem
+        text-align: center
+      &:nth-child(2)
+        padding: 2rem
+      &:last-child
+        padding-right: 2rem
+
+    &_title
+      display: flex
+      flex-direction: column
+      justify-content: center
+
+      &.primary
+        background-color: $gurzu_blue
+        color: white
+      
+      &.secondary
+        border: 2px solid $gurzu_blue
+        color: $gurzu_blue
+
+      &.tertiary
+        border: 2px solid $border_gray  
+      
