@@ -1,0 +1,18 @@
+.custom-breadcrumb
+  &_container
+    .crumb
+      display: flex
+
+      a
+        color: $primary_color
+        position: relative
+
+        &:hover
+          color: $secondary_color
+
+        &::after
+          content: '/'
+          padding: 0 0.3rem
+
+      p
+        color: $text_gray

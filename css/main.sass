@@ -7,6 +7,16 @@
 @import "buttons"
 @import "typography"
 @import "sideNav"
+@import "cards"
+@import "accordion"
+@import "breadcrumb"
+@import "checkbox"
+@import "dropdown"
+@import "fileUploader"
+@import "form"
+@import "link"
+@import "list"
+@import "modal"
 
 body
   background-color: rgba(0,0,0,0.125)
@@ -18,12 +28,16 @@ a
   text-decoration: none
   color: inherit
 
+.whole
+  position: relative
+  
 .section-card
   padding: 4rem 2rem
   background-color: white
+  min-height: calc(100vh - 25rem)
 
   &_title
-    margin-bottom: 2rem
+    margin-bottom: 3rem
 
 .custom-divider
   height: 3px 
@@ -33,7 +47,13 @@ a
     background-color: white
 
 .gurzu-blue-text
-  color: $gurzu_blue
+  color: $primary_color
 
 .gurzu-blue-dark-text
-  color: $gurzu_blue_dark
+  color: $secondary_color
+
+.code
+  padding: 2rem 1.5rem
+  background-color: aliceblue
+  border-radius: 10px
+  color: dimgray

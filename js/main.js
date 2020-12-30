@@ -1,1 +1,3 @@
-console.log(document.getElementById("color"));
+function modalBtnClick() {
+  document.getElementById("ml").classList.toggle("show");
+}

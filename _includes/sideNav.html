@@ -1,9 +1,117 @@
-<ul class="side-nav">
-  <li>
-    <a href="{{site.baseurl}}/">Guidelines</a>
+<ul class="side-nav py-5">
+  <li class="mb-4">
+    <h5>Guidelines</h5>
+
+    <ul>
+      <li>
+        <a
+          href="{{site.baseurl}}/"
+          class="{% if page.url == '/' %}active{% endif %}"
+          >Colors</a
+        >
+      </li>
+
+      <li>
+        <a
+          href="{{site.baseurl}}/typography"
+          class="{% if page.url == '/typography' %}active{% endif %}"
+          >Typography</a
+        >
+      </li>
+    </ul>
   </li>
 
   <li>
-    <a href="{{site.baseurl}}/components">Components</a>
+    <h5>Components</h5>
+
+    <ul>
+      <li>
+        <a
+          href="{{site.baseurl}}/accordion"
+          class="{% if page.url == '/accordion' %}active{% endif %}"
+          >Accordion</a
+        >
+      </li>
+
+      <li>
+        <a
+          href="{{site.baseurl}}/breadcrumb"
+          class="{% if page.url == '/breadcrumb' %}active{% endif %}"
+          >Breadcrumb</a
+        >
+      </li>
+
+      <li>
+        <a
+          href="{{site.baseurl}}/buttons"
+          class="{% if page.url == '/buttons' %}active{% endif %}"
+          >Buttons</a
+        >
+      </li>
+
+      <li>
+        <a
+          href="{{site.baseurl}}/cards"
+          class="{% if page.url == '/cards' %}active{% endif %}"
+          >Cards</a
+        >
+      </li>
+
+      <li>
+        <a
+          href="{{site.baseurl}}/checkbox"
+          class="{% if page.url == '/checkbox' %}active{% endif %}"
+          >Checkbox</a
+        >
+      </li>
+
+      <li>
+        <a
+          href="{{site.baseurl}}/dropdown"
+          class="{% if page.url == '/dropdown' %}active{% endif %}"
+          >Dropdown</a
+        >
+      </li>
+
+      <li>
+        <a
+          href="{{site.baseurl}}/fileUploader"
+          class="{% if page.url == '/fileUploader' %}active{% endif %}"
+          >File Uploader</a
+        >
+      </li>
+
+      <li>
+        <a
+          href="{{site.baseurl}}/form"
+          class="{% if page.url == '/form' %}active{% endif %}"
+          >Form</a
+        >
+      </li>
+
+      <li>
+        <a
+          href="{{site.baseurl}}/link"
+          class="{% if page.url == '/link' %}active{% endif %}"
+          >Link</a
+        >
+      </li>
+
+      <li>
+        <a
+          href="{{site.baseurl}}/list"
+          class="{% if page.url == '/list' %}active{% endif %}"
+          >List</a
+        >
+      </li>
+
+      <li>
+        <a
+          href="{{site.baseurl}}/modal"
+          class="{% if page.url == '/modal' %}active{% endif %}"
+          >Modal</a
+        >
+      </li>
+    </ul>
   </li>
 </ul>

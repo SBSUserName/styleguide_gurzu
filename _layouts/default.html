@@ -14,13 +14,16 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-3">{% include sideNav.html %}</div>
+    <div class="container whole">
+      {% include header.html %}
+      <div class="row container-fluid m-0 p-0">
+        <div class="col-4 side-nav_column">{% include sideNav.html %}</div>
 
-        <div class="col-9">{{content}}</div>
+        <div class="col-8" style="background-color: white">{{content}}</div>
       </div>
     </div>
+
+    <div class="modal-layer" id="ml">{% include modal.html %}</div>
 
     <script src="{{site.baseurl}}/js/main.js"></script>
 
